@@ -176,8 +176,9 @@
     var postcode = document.getElementById('postcodeInput').value;
     
     // Construct the URL with the desired structure
-    var redirectUrl = 'https://checkedandvetted.com/search/' + encodeURIComponent('gardeners') + '/in/' + encodeURIComponent(postcode);
-    
+    var redirectUrl = 'https://checkedandvetted.com/search/' + encodeURIComponent('gardeners') + '/in/' + encodeURIComponent(postcode) + '/';
+    console.log(redirectUrl)
+    'https://checkedandvetted.com/search/gardeners/in/8812/'
     // Redirect the user to the constructed URL
     window.location.href = redirectUrl;
   });

@@ -102,9 +102,6 @@ footer .tw:hover > svg{
 .flex{
   display: flex;
 }
-.flex-wrap{
-  flex-wrap: wrap;
-}
 .justify-between{
   justify-content: space-between;
 }
@@ -195,6 +192,9 @@ footer .tw:hover > svg{
 }
 
 @media screen and (max-width: 768px){
+  .flex-wrap{
+    flex-wrap: wrap;
+  }
   .md\:flex-col{
     flex-direction: column;
   }
